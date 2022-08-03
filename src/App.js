@@ -1,7 +1,7 @@
 import "./App.css";
 import TourCard from "./components/TourCard";
 import Container from "@mui/material/Container";
-import Grid from "@mui/materila/Grid";
+import Grid from "@mui/material/Grid";
 
 function App() {
   return (
