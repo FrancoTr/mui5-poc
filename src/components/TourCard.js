@@ -8,6 +8,7 @@ const TourCard = () => {
         <img
           src="https://cdn.pixabay.com/photo/2016/08/13/07/20/niagara-1590345_960_720.jpg"
           alt="niagara falls"
+          className="img"
         />
       </Paper>
     </Grid>
