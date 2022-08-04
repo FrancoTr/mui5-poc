@@ -2,6 +2,7 @@ import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import { AccessTime } from "@mui/icons-material";
 
 const TourCard = () => {
   return (
@@ -16,6 +17,12 @@ const TourCard = () => {
           <Typography variant="subtitle1" component="h2">
             Immerse into the Falls
           </Typography>
+          <Box sx={{ display: "flex", alignItems: "center" }}>
+            <AccessTime sx={{ width: 12.5 }} />
+            <Typography variant="body2" component="p">
+              5 hours
+            </Typography>
+          </Box>
         </Box>
       </Paper>
     </Grid>
