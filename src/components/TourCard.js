@@ -1,6 +1,7 @@
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 import { AccessTime } from "@mui/icons-material";
 
@@ -22,6 +23,9 @@ const TourCard = () => {
             <Typography variant="body2" component="p" marginLeft={0.5}>
               5 hours
             </Typography>
+          </Box>
+          <Box sx={{ display: "flex", alignItems: "center" }} marginTop={3}>
+            <Rating name="read-only" value={4.5} precision={0.5} size="small" readOnly />
           </Box>
         </Box>
       </Paper>
