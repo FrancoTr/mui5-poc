@@ -26,6 +26,12 @@ const TourCard = () => {
           </Box>
           <Box sx={{ display: "flex", alignItems: "center" }} marginTop={3}>
             <Rating name="read-only" value={4.5} precision={0.5} size="small" readOnly />
+            <Typography variant="body2" component="p" marginLeft={0.5}>
+              4.5
+            </Typography>
+            <Typography variant="body3" component="p" marginLeft={1.5}>
+              (655 reviews)
+            </Typography>
           </Box>
         </Box>
       </Paper>
