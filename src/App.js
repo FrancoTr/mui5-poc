@@ -11,7 +11,7 @@ function App() {
       <SearchAppBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:ID" element={<Tour />} />
+        <Route path="/:id" element={<Tour />} />
       </Routes>
     </BrowserRouter>
   );
