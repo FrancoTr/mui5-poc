@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../src/pages/Home";
 import { AppBar } from "@mui/material";
 import SearchAppBar from "./components/AppBar";
+import Tour from "./pages/Tour";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SearchAppBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/:ID" element={<Tour />} />
       </Routes>
     </BrowserRouter>
   );
