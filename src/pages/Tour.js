@@ -5,7 +5,9 @@ import React from "react";
 function Tour() {
   return (
     <Container sx={{ width: 900 }}>
-      <Typography>Explore the World</Typography>
+      <Typography variant="h3" component="h1" marginTop={3}>
+        Explore the World
+      </Typography>
     </Container>
   );
 }
