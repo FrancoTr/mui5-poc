@@ -1,4 +1,5 @@
 import React from "react";
+import ImageCollage from "../components/ImageCollage";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material/Container";
 import { Typography } from "@mui/material";
@@ -15,6 +16,7 @@ function Tour() {
           alt="las vegas"
           height={325}
         />
+        <ImageCollage />
       </Box>
     </Container>
   );
