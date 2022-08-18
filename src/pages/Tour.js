@@ -10,7 +10,11 @@ function Tour() {
         Explore the World
       </Typography>
       <Box marginTop={3} sx={{ display: "flex" }}>
-        <img src="https://media.timeout.com/images/105124791/750/422/image.jps" alt="las vegas" />
+        <img
+          src="https://media.timeout.com/images/105124791/750/422/image.jps"
+          alt="las vegas"
+          height={325}
+        />
       </Box>
     </Container>
   );
