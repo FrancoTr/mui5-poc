@@ -1,7 +1,7 @@
 import React from "react";
 import ImageCollage from "../components/ImageCollage";
 import Box from "@mui/material/Box";
-import { Container } from "@mui/material/Container";
+import { Container } from "@mui/material";
 import { Typography } from "@mui/material";
 
 function Tour() {
