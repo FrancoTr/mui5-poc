@@ -18,6 +18,17 @@ function Tour() {
         />
         <ImageCollage />
       </Box>
+      <Box>
+        <Typography variant="h6" component="h4" marginTop={3}>
+          About this ticket
+        </Typography>
+        <Typography variant="paragraph" component="p" marginTop={3}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sequi commodi veniam labore
+          qui ipsam voluptate sapiente! Quidem rem reiciendis, consequatur voluptates nulla numquam
+          temporibus exercitationem excepturi! Ipsam explicabo perferendis veritatis veniam magni,
+          praesentium, culpa beatae optio modi suscipit necessitatibus.
+        </Typography>
+      </Box>
     </Container>
   );
 }
