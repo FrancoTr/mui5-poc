@@ -29,6 +29,11 @@ function Tour() {
           praesentium, culpa beatae optio modi suscipit necessitatibus.
         </Typography>
       </Box>
+      <Box>
+        <Typography variant="h6" component="h4" marginTop={3}>
+          Frequently Asked Questions
+        </Typography>
+      </Box>
     </Container>
   );
 }
