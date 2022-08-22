@@ -13,7 +13,7 @@ function Tour() {
       </Typography>
       <Box marginTop={3} sx={{ display: "flex" }}>
         <img
-          src="https://media.timeout.com/images/105124791/750/422/image.jps"
+          src="https://media.timeout.com/images/105124791/750/422/image.jpg"
           alt="las vegas"
           height={325}
         />
