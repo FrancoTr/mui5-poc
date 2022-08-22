@@ -1,4 +1,5 @@
 import React from "react";
+import SimpleAccordion from "../components/Accordion";
 import ImageCollage from "../components/ImageCollage";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
@@ -33,6 +34,7 @@ function Tour() {
         <Typography variant="h6" component="h4" marginTop={3}>
           Frequently Asked Questions
         </Typography>
+        <SimpleAccordion />
       </Box>
     </Container>
   );
