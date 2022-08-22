@@ -3,7 +3,9 @@ import SimpleAccordion from "../components/Accordion";
 import ImageCollage from "../components/ImageCollage";
 import Box from "@mui/material/Box";
 import { Container } from "@mui/material";
-import { Typography } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Paper from "@mui/material/Paper";
+import BottomNavigation from "@mui/material/BottomNavigation";
 
 function Tour() {
   return (
@@ -30,12 +32,15 @@ function Tour() {
           praesentium, culpa beatae optio modi suscipit necessitatibus.
         </Typography>
       </Box>
-      <Box>
+      <Box marginBottom={10}>
         <Typography variant="h6" component="h4" marginTop={3} marginBottom={2}>
           Frequently Asked Questions
         </Typography>
         <SimpleAccordion />
       </Box>
+      <Paper sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }} elevation={3}>
+        <BottomNavigation>Test</BottomNavigation>
+      </Paper>
     </Container>
   );
 }
