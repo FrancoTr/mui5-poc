@@ -31,7 +31,7 @@ function Tour() {
         </Typography>
       </Box>
       <Box>
-        <Typography variant="h6" component="h4" marginTop={3}>
+        <Typography variant="h6" component="h4" marginTop={3} marginBottom={2}>
           Frequently Asked Questions
         </Typography>
         <SimpleAccordion />
