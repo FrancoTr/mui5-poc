@@ -6,6 +6,7 @@ import { Container } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import BottomNavigation from "@mui/material/BottomNavigation";
+import BasicModal from "../components/Modal";
 
 function Tour() {
   return (
@@ -39,7 +40,9 @@ function Tour() {
         <SimpleAccordion />
       </Box>
       <Paper sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }} elevation={3}>
-        <BottomNavigation>Test</BottomNavigation>
+        <BottomNavigation>
+          <BasicModal />
+        </BottomNavigation>
       </Paper>
     </Container>
   );
